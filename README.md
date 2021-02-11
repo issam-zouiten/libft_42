@@ -7,17 +7,16 @@ My implementation of some of the Standard C Library functions including some add
 * [What's in it?](#whats-in-it)
 * [How does it work?](#how-does-it-work)
 * [How do I use the library?](#how-do-i-use-the-library)
-* [How do I test it? How do I test my own implementations?](#how-do-i-test-it-how-do-i-test-my-own-implementations)
 * [Example usage](#example-usage)
 
 ### What is libft?
-[Libft][1] is an individual project at [42][2] that requires us to re-create some standard C library functions including some additional ones that can be used later to build a library of useful functions for the rest of the program.
+-> Libft is an individual project at "42" that requires us to re-create some standard C library functions including some additional ones that can be used later to build a library of useful functions for the rest of the program.
 
 Disclaimer: *Reinventing the wheel is bad, 42 makes us do this just so we can have a deeper understanding of data structures and basic algorithms. At 42 we're not allowed to use some standard libraries on our projects, so we have to keep growing this library with our own functions as we go farther in the program.*
 
 ### What's in it?
 
-As you can see from the [Project instructions][1], there are 4 sections:
+As you can see from the Project instructions, there are 4 sections:
 
 1.  **Libc Functions:** Some of the standard C functions
 2.  **Additional functions:** Functions 42 deems will be useful for later projects
@@ -94,10 +93,6 @@ You have to tell the file where your library resides and which library it is usi
 -l takes the name of your library. This is the set of characters that come after `lib` in your library name.
 
 That's it. Now run it using `./a.out`
-
-### How do I test it? How do I test my own implementations?
-
-To test the code we're going to be using @alelievr's [Libft Unit Test][4]. There are [some][5] [good][6] [others][7] but I'll only be covering this one.
 
 ## Example usage
 
