@@ -77,7 +77,7 @@ You should see a *libft.a* file and some object files (.o).
 
 Now to clean up (removing the .o files and the .c files from the root), call `make clean`
 
-**![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`WARNING** `make clean` will delete all your files from your root directory. Do not run it if you're using the `Makefile` file. This is why I added the `Makefile-sample` file.
+**![#f03c15](WARNING)** `make clean` will delete all your files from your root directory. Do not run it if you're using the `Makefile` file. This is why I added the `Makefile-sample` file.
 
 ### How do I use the library?
 
